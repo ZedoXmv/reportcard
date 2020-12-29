@@ -16,7 +16,7 @@
         <form action="reportcard.php" method="GET">
             <div>
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control mb-5" id="name" placeholder="Enter your name" name="name" autofocus required>
+                <input type="text" class="form-control mb-5" id="name" placeholder="Enter your name..." name="name" autofocus required>
             </div>
             
             
