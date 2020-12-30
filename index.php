@@ -14,12 +14,11 @@
             <h1>Report Card Generator</h1>
         </div>
         <form action="reportcard.php" method="GET">
-            <div>
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control mb-5" id="name" placeholder="Enter your name..." name="name" autofocus required>
+            <div class="form-floating mb-5">
+                <input type="text" class="form-control" id="uname" placeholder="name" name="name">
+                <label for="uname">Enter your name...</label>
             </div>
-            
-            
+
             <div class="row">
                 <div class="col-auto">
                     <label for="Dhivehi" class="form-label">Dhivehi</label>
